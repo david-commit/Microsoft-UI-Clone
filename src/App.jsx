@@ -18,6 +18,7 @@ import save from './img/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-Hi
 import saveBusiness from './img/business1.webp';
 import teams from './img/business2.webp';
 
+import buyXbox from './img/product-Xbox.avif';
 import pcGames from './img/product-surface-pro.avif';
 import studio from './img/product-Surface-Laptop-Studio.jpeg';
 import mic365 from './img/business3.webp';
@@ -220,7 +221,7 @@ function App() {
           </h5>
         </div>
         <div className='featured'>
-          <img src='./img/product-Xbox.avif' alt='Xbox' />
+          <img src={buyXbox} alt='Xbox' />
           <h2>Buy Xbox Series S, get a bonus game</h2>
           <br />
           <p>
