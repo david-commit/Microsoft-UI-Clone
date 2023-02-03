@@ -18,6 +18,12 @@ import save from './img/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-Hi
 import saveBusiness from './img/business1.webp';
 import teams from './img/business2.webp';
 
+import pcGames from './img/product-surface-pro.avif';
+import studio from './img/product-Surface-Laptop-Studio.jpeg';
+import mic365 from './img/business3.webp';
+import win11 from './img/business4.jpeg';
+import ukraine from './img/ukrane-banner.avif';
+
 function App() {
   return (
     <div className='App'>
@@ -184,13 +190,13 @@ function App() {
         </div>
         <div className='featured'>
           <img
-            src='./img/product-Surface-Laptop-Studio.jpeg'
+            src={studio}
             alt='product-surface-pro'
           />
           <h2>Up to $500 off select Surface Laptop Studio</h2>
           <br />
           <p>
-            CArtistic explorations to complex equations, do it all with a PC
+            Artistic explorations to complex equations, do it all with a PC
             that adapts in a snap. Starting at $1399.99.
           </p>
           <h5>
@@ -199,7 +205,7 @@ function App() {
           </h5>
         </div>
         <div className='featured'>
-          <img src='./img/product-surface-pro.avif' alt='game' />
+          <img src={pcGames} alt='game' />
           <h2>PC Game Pass</h2>
           <br />
           <p>
@@ -274,7 +280,7 @@ function App() {
             </h5>
           </div>
           <div className='featured'>
-            <img src='./img/business3.webp' alt='product-surface-pro' />
+            <img src={mic365} alt='product-surface-pro' />
             <h2>Microsoft 365 for business</h2>
             <br />
             <p>
@@ -290,7 +296,7 @@ function App() {
             </h5>
           </div>
           <div className='featured'>
-            <img src='./img/business4.jpeg' alt='product-surface-pro' />
+            <img src={win11} alt='product-surface-pro' />
             <h2>Windows 11 for business is here</h2>
             <br />
             <p>
@@ -306,7 +312,7 @@ function App() {
       {/* ---FIFTH CONTAINER--- */}
       {/* ---SIXTH CONTAINER (UKRAINE BANNER)--- */}
       <div className='sixth-container'>
-        <img src='./img/ukrane-banner.avif' alt='Ukraine' />
+        <img src={ukraine} alt='Ukraine' />
         <div className='sixth-container-content'>
           <h2>Defending Ukraine: Early Lessons from the Cyber War</h2>
           <br />
@@ -321,16 +327,16 @@ function App() {
         <div className='report-slider-nav'>
           <ul>
             <li>
-              <img src='./img/arrow-left.png' alt='' id='arrowimg' />
+              <img src={arrowLeft} alt='' id='arrowimg' />
             </li>
             <li>
-              <img src='./img/black-circle.png' alt='' id='slider-circle' />
+              <img src={blackCircle} alt='' id='slider-circle' />
             </li>
             <li>
-              <img src='./img/black-circle.png' alt='' id='slider-circle' />
+              <img src={blackCircle} alt='' id='slider-circle' />
             </li>
             <li>
-              <img src='./img/arrow-right.png' alt='' id='arrowimg' />
+              <img src={arrowRight} alt='' id='arrowimg' />
             </li>
           </ul>
         </div>
