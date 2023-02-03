@@ -3,15 +3,20 @@ import logo from './img/logo.png';
 import search from './img/search.png'
 import cart from './img/cart.png';
 import profile from './img/profile.png';
-import surfaceMachines from './img/surface-machines.avif';
+import surfaceMachines from './img/surface-machines.jpg';
 import arrowLeft from './img/arrow-left.png';
 import arrowRight from './img/arrow-right.png';
 import blackCircle from './img/black-circle.png';
-import productMicrosoft365 from './img/product-Microsoft-365.webp';
+import productMicrosoft365 from './img/product-Microsoft-365.jpg';
 import productSurface from './img/product-surface.webp';
 import productXvox from './img/product-xbox.webp';
 import productBook from './img/product-Book.webp';
 import productlaptop from './img/product-Laptop.webp'
+import productBrief from './img/product-briefcase.webp';
+import surfacePro from './img/product-surface-pro.avif';
+import save from './img/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero_VP4-1260x600.jpeg';
+import saveBusiness from './img/business1.webp';
+import teams from './img/business2.webp';
 
 function App() {
   return (
@@ -151,7 +156,7 @@ function App() {
           </h4>
         </div>
         <div className='product-panel'>
-          <img src='./img/product-briefcase.webp' alt='Shop Business' />
+          <img src={productBrief} alt='Shop Business' />
           <h4>
             <a href='#'>Shop Business</a>
           </h4>
@@ -161,7 +166,7 @@ function App() {
       {/* ----THIRD CONTAINER--- */}
       <div className='third-container'>
         <div className='featured'>
-          <img src='./img/product-surface-pro.avif' alt='product-surface-pro' />
+          <img src={surfacePro} alt='product-surface-pro' />
           <h2>Surface Pro 8 (i5) + Surface Pro Keyboard</h2>
           <br />
           <p>
@@ -225,7 +230,7 @@ function App() {
       {/* ---FOURTH CONTAINER--- */}
       <div className='fourth-container'>
         <img
-          src='./img/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero_VP4-1260x600.jpeg'
+          src={save}
           alt='Lemovo'
         />
         <div className='fourth-container-content'>
@@ -246,7 +251,7 @@ function App() {
         <h1>For Business</h1>
         <div className='fifth-container'>
           <div className='featured'>
-            <img src='./img/business1.webp' alt='product-surface-pro' />
+            <img src={saveBusiness} alt='product-surface-pro' />
             <h2>Save up to $450 on select Surface Pro 8 for Business</h2>
             <br />
             <p>
@@ -258,7 +263,7 @@ function App() {
             </h5>
           </div>
           <div className='featured'>
-            <img src='./img/business2.webp' alt='product-surface-pro' />
+            <img src={teams} alt='product-surface-pro' />
             <h2>Get Microsoft Teams for free</h2>
             <br />
             <p>
